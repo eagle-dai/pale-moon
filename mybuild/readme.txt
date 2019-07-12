@@ -12,7 +12,7 @@
   start-shell-msvc2015-x64.bat
 
   Run in the new shell:
-  cd ~/workspace/browser/pale-moon
+  cd <repo>
   ./mach build
   ./mach installer
 

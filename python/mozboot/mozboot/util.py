@@ -7,6 +7,7 @@ import os
 
 def get_state_dir():
     """Obtain path to a directory to hold state.
+
     Returns a tuple of the path and a bool indicating whether the
     value came from an environment variable.
     """
