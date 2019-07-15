@@ -125,3 +125,6 @@ lextab.py
 
 # tup database
 /.tup
+
+# MYBUILD
+.vscode/
