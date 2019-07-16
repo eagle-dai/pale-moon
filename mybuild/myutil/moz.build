@@ -1,0 +1,12 @@
+# MYBUILD
+
+EXPORTS += [
+    'common_utils.h'
+]
+
+SOURCES += [
+    'common_utils.cpp'
+]
+
+USE_STATIC_LIBS = True
+Library('mybuild')

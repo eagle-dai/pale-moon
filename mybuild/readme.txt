@@ -1,4 +1,6 @@
 
+Build with Visual Studio 2015
+---------------------------------------------------------------------------------------------------
 - Make sure visual studio 2015 is installed.
   https://stackoverflow.com/questions/44290672/how-to-download-visual-studio-community-edition-2015-not-2017
 
@@ -25,3 +27,8 @@
     <repo>\obj-x86_64-w64-mingw32\dist\bin
   - installer:
     <repo>\obj-x86_64-w64-mingw32\dist\palemoon-<version>.win64.installer
+
+	
+NOTE
+---------------------------------------------------------------------------------------------------
+- All my changes are with comment tag string: MYBUILD

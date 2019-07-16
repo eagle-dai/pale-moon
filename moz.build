@@ -81,6 +81,9 @@ if not CONFIG['MOZ_DISABLE_PLATFORM']:
     else:
         TEST_DIRS += ['js/src/tests']
 
+    # MYBUILD
+    DIRS += ['mybuild']
+
 if not CONFIG['JS_STANDALONE'] and CONFIG['MOZ_BUILD_APP']:
     # Bring in the configuration for the configured application.
     include('/' + CONFIG['MOZ_BUILD_APP'] + '/app.mozbuild')
